@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    /* border: none; */
+    color: white;
+    /* padding: 5px 6px; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25em;
+    border: 1px  solid black;
+    border-radius: 0.2rem;
+    background-color: #333;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+
+button:hover{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 25em;
+    border: 1px  solid black;
+    border-radius: 0.2rem;
+    background-color: #4CAF50;
+    box-shadow: 5px  5px 10px rgba(0,0,0,.4);
+}
+
+.img{
+    margin-top: 0.2em; 
+    height: 5em;
+    width:  5em;
+    border: #333 1rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+    }
+.image{
+
+    margin-left: 20rem;
+    margin-top: 2em; 
+    height: 10em;
+    width:  10em;
+    border: #333 1rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+#home h6{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    color:#9b9b9b;
+    margin-left: -1rem;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: #333 1rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+.container h1{
+    margin-left: 25rem;
+    /* overflow: hidden; */
+    display: flex;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

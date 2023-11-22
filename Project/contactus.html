@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Platform - Contact Us</title>
+    <link rel="stylesheet" href="./css/contactus.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="container">
+        <img src="ME.png" class="logo" alt="">
+        <h1>Welcome to the Learning Platform</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content - Contact Us Page -->
+    <main class="container">
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Reach out to us using the form below.</p>
+
+            <!-- Contact Form -->
+            <form id="contactForm" action="#" method="post">
+                <label for="name" >Name:</label>
+                <input type="text" placeholder="Prathamesh Patil" id="name" name="name" required>
+
+                <label for="email" >Email:</label>
+                <input type="email" id="email" name="email" placeholder="Prathameshp.2001@gmail.com" required>
+
+                <label for="subject" >Subject:</label>
+                <input type="text" placeholder="Java developer" id="subject" name="subject" required>
+
+                <label for="message" >Message:</label>
+                <textarea id="message"  placeholder="Enter your queries" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Display submitted data -->
+            <div id="submittedData"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2021 Learning Platform</p>
+    </footer>
+</body>
+</html>
